@@ -9,7 +9,6 @@ import {
   Select,
   Stack,
   TextInput,
-  Title,
 } from "@mantine/core";
 import type { FormErrors } from "@mantine/form";
 import { DateInput } from "@mantine/dates";
@@ -112,7 +111,6 @@ export function AssessmentForm({
       <Paper withBorder shadow="sm" p="xl">
         <form onSubmit={form.onSubmit(submit)}>
           <Stack>
-            <Title order={1}>Geriatric Care Assessment</Title>
             <TextInput
               label="Medical record number"
               placeholder="MRN-004821"
